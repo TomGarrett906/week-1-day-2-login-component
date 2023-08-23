@@ -1,0 +1,119 @@
+html {
+    background-color: #eaf3fe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 200px 20px 2000px 200px;
+}
+
+#steps {
+    background-color: #3838f9;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.first-circle {
+    color: #446689;
+    background-color: #afdef9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    border: solid 2px bisque;
+}
+
+.circles {
+    color: #c1bff7;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    border: solid 2px bisque;
+}
+
+.steps-text {
+    background-color: #3838f9;
+    color: #e3e8fd;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.steps-img {
+    background-color: #3838f9;
+    padding-bottom: 10px;
+    /* padding-left: 10px;
+    border-radius: 10px; */
+
+    width: 50px;
+    height: 50px;
+    /* background-image: url("graphic.png"); */
+    /* background-size: cover; */
+    /* background-position: bottom; */
+    /* flex: 0 0 auto; */
+}
+
+#personal-info {
+    background-color: white;
+    padding: 20px;
+    flex: 1 1 auto;
+    border-radius: 10px;
+    max-width: 50%;
+    padding-left: 10%;
+
+}
+
+h1 {
+    font-size: 25px;
+
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 15px;
+
+}
+
+h4 {
+    font-size: 10px;
+}
+
+
+p {
+    color: #a8a8b1;
+    font-size: 17px;
+}
+
+.input-text {
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    gap: 2px;
+    padding: 10px;
+    height: 200px;
+}
+
+button {
+    background-color: #08254b;
+    color: #cbe0ed;
+    border-radius: 5px;
+    float: right;
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-top: 10%;
+
+}
